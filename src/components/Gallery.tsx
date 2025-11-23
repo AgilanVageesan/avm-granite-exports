@@ -20,12 +20,12 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const images = [
-    { id: 1, title: "Premium Black Granite", category: "Black Granite", src: Granite1 },
-    { id: 2, title: "Red Granite Block", category: "Red Granite", src: Granite2 },
-    { id: 3, title: "White Granite", category: "White Granite", src: Granite3 },
-    { id: 4, title: "Grey Granite", category: "Grey Granite", src: Granite4 },
-    { id: 5, title: "Multi-Color", category: "Multi-Color", src: Granite5 },
-    { id: 6, title: "Export Quality", category: "Premium Grade", src: Granite6 },
+    { id: 1, title: "Granite", category: "Black Granite", src: Granite1 },
+    { id: 2, title: "Granite", category: "Red Granite", src: Granite2 },
+    { id: 3, title: "Granite", category: "White Granite", src: Granite3 },
+    { id: 4, title: "Granite", category: "Grey Granite", src: Granite4 },
+    { id: 5, title: "Granite", category: "Multi-Color", src: Granite5 },
+    { id: 6, title: "Granite", category: "Premium Grade", src: Granite6 },
   ];
 
   return (
